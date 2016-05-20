@@ -3,12 +3,13 @@
   padding: 0;
 }
 
-h2{
+.tituloCliente{
   margin-top: 1.5em;
   color: #26A360;
   font-family: arial;
   font-size: 50px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 600px;
 }
 
 section#images {
@@ -116,7 +117,7 @@ section#images {
 
 @media (max-width: 1000px){
 
-	h2{
+	.tituloCliente{
     font-size: 40px;
     }
 
@@ -252,10 +253,4 @@ section#images {
 
 }
 
-
-#imgIso{
-	margin-top: 10em;
-    margin-bottom: 20em;
-	width: 300px;
-}
 

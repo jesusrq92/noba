@@ -2,20 +2,28 @@
 	margin:0;
 	padding: 0;
 }
-.navbar {
-    
-    margin-bottom: 0px !important;
-    
+
+.grosorRowNosotros{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
 }
+
+.grosorColumnaImg{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
 .container-fluid{
 	padding-left: 0;
 	padding-right: 0;
 }
 
-#imgNosotros{
-	width: 100%;
-	border-bottom: solid 8px #3fb05e;
-
+.ajusteImage{
+	width: 100% !important;
 }
 
 .contenido{
@@ -23,53 +31,362 @@
 	margin-bottom: 4%;
 }
 
-h1{
+.tituloPrincipal{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600px;
 	position: relative;
 	margin-top: -25%;
 	color: white;
 	font-size: 60px;
 }
 
-h2{
+.titulosNosotros{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600px;
+    font-size: 35px;
 	color: #3fb05e;
 }
 
-p{
-	font-size: 20px;
+.parrafos{
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
 	text-align: justify;
 	color: #4f4c4d;
 }
 
+#imgNosotros{
+	width: 100%;
+	border-bottom: solid 8px #3fb05e;
+}
+
+#imgIso{
+	margin-top: 10em;
+    margin-bottom: 20em;
+	width: 300px;
+}
+
+
 @media (max-width: 1100px){
-	h1{
-		font-size: 50px;
+	.tituloPrincipal{
+		font-size: 45px;
 	}
+
+	#imgNosotros{
+	border-bottom: solid 6px #3fb05e;
+    }
 }
 
 @media (max-width: 700px) {
 
-	h1{
+	.tituloPrincipal{
 		font-size: 40px;
 	}
 
-	h2{
+	.titulosNosotros{
 		font-size: 20px;
 		padding-left: 6px;
 	}
 
-	p{
-		font-size: 15px;
+	.parrafos{
+		font-size: 11px;
 		padding-left: 6px;
 		padding-right: 6px;
 		color: #4f4c4d;
 	}
+
+	#imgNosotros{
+	border-bottom: solid 5px #3fb05e;
+    }
 }
 
 @media (max-width: 700px){
-	h1{
+	.tituloPrincipal{
 		font-size: 30px;
 	}
+
+	#imgNosotros{
+	border-bottom: solid 4px #3fb05e;
+    }
 }
+
+/*iso CSS*/
+
+.grosorRowIso{
+	margin-right: 0 !important; 
+    margin-left: 0 !important; 
+}
+
+.grosorNav{
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+
+/*ClientesCSS*/
+
+.grosorRowClientes{
+	margin-right: 0; 
+    margin-left: 0; 
+}
+
+
+.tituloCliente{
+  margin-top: 1.5em;
+  color: #26A360;
+  font-family: arial;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600px;
+}
+
+section#images {
+    margin-bottom: 5.5em;
+}
+
+.changeColor{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.changeColor:hover{
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);	
+    -moz-transition: .4s linear;
+    -webkit-transition: .4s linear;
+	transition: .4s linear;	
+}
+
+#pirelli{
+	width: 200px; 
+	height: 70px;
+}
+
+#vw{
+	width: 125px;
+	height: 110px;
+	margin-top: -2em;
+}
+
+#denso{
+	width: 200px;
+	height: 40px;
+}
+
+#KyV{
+	width: 200px;
+	height: 45px;
+}
+
+#hirotec{
+	width: 205px; 
+	height: 190px;
+}
+
+#deacero{
+	width: 210px;
+	height: 60px;
+	margin-top: 5em; 
+}
+
+#summit{
+	width: 210px;
+	height: 100px;
+	margin-top: 4em;
+}
+
+#kgm{
+	width: 210px;
+	height: 65px;
+	margin-top: 5em;
+}
+
+#nsk{
+	width: 210px;
+	height: 65px;
+	margin-top: 3em;
+}
+
+#hsc{
+	width: 200px;
+	height: 80px;
+	margin-top: 3em;
+}
+
+#HAngeles{
+	width: 220px;
+	height: 85px;
+	margin-top: 3em;
+}
+
+#altacia{
+	width: 210px;
+	height: 120px;
+	margin-top: 2em;
+}
+
+#viaAlta{
+	width: 220px;
+	height: 180px;
+	margin-top: 0em;
+}
+
+#crowne{
+	width: 180px;
+	height: 100px;
+	padding-top: 10px;
+	margin-top: 1.5em;
+}
+
+#hotelMexico{
+	width: 130px;
+	height: 170px;
+	margin-top: 1.7em;
+}
+
+.alto{
+	height: 150px;
+}
+
+@media (max-width: 1000px){
+
+	.tituloCliente{
+    font-size: 40px;
+    }
+
+	#pirelli{
+	width: 150px; 
+	height: 40px;
+	}
+
+	#vw{
+	width: 80px;
+	height: 80px;
+    } 
+
+    #denso{
+    width: 160px;
+	height: 20px;
+    }
+
+    #KyV{
+	width: 160px;
+	height: 25px;
+    }
+
+    #hirotec{
+	width: 165px; 
+	height: 170px;
+    }
+
+    #deacero{
+	width: 165px;
+	height: 40px;
+    }
+
+    #summit{
+	width: 165px;
+	height: 80px;
+    }
+
+    #kgm{
+	width: 160px;
+	height: 45px;
+    }
+
+    #nsk{
+	width: 170px;
+	height: 45px;
+    }
+
+    #hsc{
+	width: 160px;
+	height: 60px;
+    }
+
+    #HAngeles{
+	width: 180px;
+	height: 65px;
+    }
+
+    #altacia{
+	width: 170px;
+	height: 110px;
+    }
+
+    #viaAlta{
+	width: 180px;
+	height: 180px;
+    }
+
+    #crowne{
+	width: 170px;
+	height: 80px;
+    }
+
+    #hotelMexico{
+	width: 100px;
+	height: 140px;
+    }
+}
+
+@media (max-width: 767px) {
+
+	#vw{
+		margin-top: 3em;
+	}
+
+	#denso{
+		margin-top: 5em;
+	}
+
+    #KyV{
+    	margin-top: 7em;
+    }
+
+    #deacero{
+    	margin-top: 2em;
+    }
+
+    #summit{
+    	margin-top: 6em;
+    }
+
+    #kgm{
+    	margin-top: 5em;
+    }
+
+    #nsk{
+    	margin-top: 5em;
+    }
+
+    #hsc{
+    	margin-top: 8em;
+    }
+
+    #HAngeles{
+    	margin-top: 6em;
+    }
+
+    #altacia{
+    	margin-top: 6em;
+    }
+
+    #viaAlta{
+    	margin-top: 2em;
+    }
+
+    #crowne{
+    	margin-top: 5em;
+    }
+
+    #hotelMexico{
+    	margin-top: 8em;
+    }
+
+}
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 *{
 	margin:0;
-	padding: 0;
+	padding: 0;	
 }
 
 .grosorRowNosotros{
@@ -60,8 +60,8 @@
 }
 
 #imgIso{
-	margin-top: 10em;
-    margin-bottom: 20em;
+	margin-top: 5em;
+    margin-bottom: 5em;
 	width: 300px;
 }
 
@@ -384,6 +384,447 @@ section#images {
     }
 
 }
+
+/*indexCSS*/
+
+.repetidoIndex{
+	display: none;
+}
+
+.noAutorizado{background: url("../images/bgblack.jpg");background-size: cover;padding-top: 40px;color: #FFF;font-size: 17px;border-bottom: 6px solid #00b25b ;}
+.raton {max-width: 730px; margin-left: -235px;margin-top: -65px; }
+.manoStop {max-width: 500px;float: right;margin-right: -15px; }
+.autorizado {font-size: 35px; font-weight: bold; }
+.insectos {width: 170px;margin-top: 20px; }
+.respecto {margin-top: 30px; }
+.puedes {font-size: 19px; }
+.algo {font-size: 24px; font-weight: bold; }
+.bgnegro {height: 430px; }
+.alguna{display: none;}
+.medical {width: 100px; }
+.care {width: 100px; }
+.medal {width: 100px; }
+.iconos {padding: 65px 0; }
+.medical2 {width: 72px; }
+.space {margin-top: 30px; }
+
+.repetido{
+	display: none;
+}
+
+.bgImage{
+	width: 100%;
+	height: 770px;
+}
+
+.tituloSomos{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600px;
+	position: relative;
+	margin-top: -15em;
+	margin-left: 15%;
+	color: white;
+	font-size: 40px;
+	text-shadow: 0px 2px 5px grey;
+}
+
+#bgWhite{
+	margin-left: 15%;
+	position: relative;
+	margin: auto;
+	width: 70%;
+	background-color: white;
+	box-shadow: 0px 5px 10px #4f4c4d;
+}
+
+.titulosIndex{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color:#26A360;
+	padding-left: 1.5em;
+}
+
+.tituloChino{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color:#26A360;
+	padding-left: 1.5em;
+}
+
+.estiloParrafos{
+	font-family: 'Poppins', sans-serif;
+	color:#4f4c4d;
+	text-align: justify;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#tipo{
+	position: relative;
+	float: right;
+	margin-top: -36em;
+}
+
+.tipoEmpresa{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700px;
+	color: #4f4c4d;
+	font-size: 35px;
+}
+
+.parrafosEmpresa{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color:#4f4c4d;
+}
+
+.estiloPlanes{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600px;
+	color: #4f4c4d;
+	font-size: 23px;
+}
+
+.botonContactar{
+	background-color: #26A360;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700px;
+	font-size: 23px;
+	padding: 9px 25px 9px 25px;
+	border-radius: 5px;
+	border:2px solid transparent;
+	-webkit-transition: .6s; /* Safari */
+    transition: .6s;
+}
+
+.botonContactar:hover{
+	color: #26A360;
+	background-color: transparent;
+	border:2px solid #26A360;
+}
+
+.formatoSlider{
+	display: inline-block;
+	width: 430px;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+#image2, #image3, #image4, #image5 {
+	margin-left: -100px;
+}
+
+@media(max-width: 1833px){
+	#tipo{
+		width: 700px;
+		margin-top: -33em;
+	}
+
+	.alto{
+		margin-top: 4em;
+	}
+
+	#image5{
+		display: none;
+	}
+
+}
+
+@media(max-width: 1760px){
+	#tipo{
+		width: 700px;
+		margin-top: -33em;
+	}
+
+	.alto{
+		margin-top: 4em;
+	}
+
+}
+
+@media(max-width: 1650px){
+	#tipo{
+		width: 600px;
+		margin-top: -30em;
+	}
+
+	.alto{
+		margin-top: 5em;
+	}
+}
+
+@media(max-width: 1540px){
+
+	#tipo{
+		width: 600px;
+		margin-top: -30em;
+	}
+
+	.alto{
+		margin-top: 5em;
+	}
+}
+
+@media (max-width: 1465px) {
+	#tipo{
+		width: 500px;
+		margin-right: 3em;
+		margin-top: -32em;
+	}
+
+	.alto{
+		margin-top: 10em;
+	}
+
+	#image4{
+		display: none;
+	}
+}
+
+@media (max-width: 1320px) {
+	#tipo{
+		width: 500px;
+		margin-right: 3em;
+		margin-top: -23em;
+	}
+}
+
+@media(max-width: 1200px){
+    .raton {max-width: 600px; margin-left: -198px; }
+    .manoStop {max-width: 470px; }
+    .insectos {width: 120px; }
+}
+
+@media (max-width: 1280px) {
+	#tipo{
+		width: 410px;
+		margin-top: -23em;
+	}
+}
+
+@media(max-width: 1130px){
+	.formatoSlider{
+	width: 400px;
+    }
+    #image2, #image3{
+	margin-left: -90px;
+    }
+
+}
+
+
+@media (max-width: 1070px) {
+	#tipo{
+		width: 370px;
+		margin-top: -23em;
+	}
+
+	.formatoSlider{
+	width: 300px;
+    }
+
+      #image2, #image3{
+	margin-left: -60px;
+    }
+}
+
+@media (max-width: 1024px){
+    .cuatro{width: initial;}
+}
+
+@media (max-width: 900px){
+.manoStop {max-width: 320px; }
+.noAutorizado {font-size: 13px; }
+.autorizado {font-size: 24px; }
+.insectos {width: 90px; }
+.algo {font-size: 21px; }
+.raton {max-width: 500px; margin-left: -166px; margin-top: -38px; }
+.bgnegro {height: 300px; }
+}
+
+@media (max-width: 960px) {
+	#tipo{
+		display: none;
+	}
+
+	.tituloChino{
+		display: none;
+	}
+
+	.original{
+		display: none;
+	}
+
+	.repetido{
+		display: flex;
+	}
+}
+
+@media (max-width: 820px){
+	.formatoSlider{
+	width: 260px;
+    }
+}
+
+@media (max-width: 788px) {
+	.alto{
+		margin-top: 8em;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.tituloSomos{
+	margin-top: -22em;
+	margin-left: 5%;
+	font-size: 30px;
+    }
+
+    #bgWhite{
+    	width: 91%;
+    }
+
+    .bgImage{
+	width: 100%;
+    }
+
+    .alto{
+		margin-top: 18em;
+	}
+	
+}
+
+@media (max-width: 767px){
+.manoStop {max-width: 260px; }
+.noAutorizado {font-size: 10px; }
+.autorizado {font-size: 18px; }
+.puedes {font-size: 16px; }
+.algo {font-size: 16px; }
+.bgnegro {height: 260px; }
+.raton {max-width: 400px; margin-left: -138px; }
+.medical2,.care,.medal{margin-top: 30px;}
+}
+
+@media(max-width: 700px){
+  .formatoSlider{
+	width: 240px;
+    }
+
+    #image2, #image3{
+	margin-left: -45px;
+}
+
+@media(max-width: 664px){
+	.formatoSlider{
+	width: 200px;
+    }
+}
+
+@media (max-width:600px){
+    .col-xs-4 {display: none; }
+    .alguna{display: initial;}
+    .noAutorizado {font-size: 14px; }
+    .insectos {width: 80px; }
+    .algo {font-size: 18px; }
+    .puedes {font-size: 17px; }
+    .bgnegro {height: 290px; }
+    .noAutorizado {padding-top: 15px; }
+    .medical,.medal {width: 80px; }
+    .medical2,.care {width: 70px; }
+}
+
+/*@media(max-width: 550px){
+	#image4, #image5{
+		display: initial;
+	}
+
+	#image1, #image2, #image3, #image4,#image5{
+		display: block;
+		margin-left: 0;
+	} 
+
+	.formatoSlider{
+	width: 300px;
+    }
+
+}*/
+
+@media(max-width: 550px){
+	.repetidoIndex{
+		display: initial;
+	}
+
+	.originalIndex{
+		display: none;
+	}
+
+	#image1{
+		margin-top: -5em;
+	}
+
+	#image1, #image2, #image3, #image4,#image5{
+		display: block;
+		margin-left: 0;
+		padding-bottom: 8px;
+	} 
+
+	.formatoSlider{
+	width: 300px;
+    }
+
+}
+
+@media (max-width: 520px){
+	.tipoEmpresa{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700px;
+	color: #4f4c4d;
+	font-size: 30px;
+    }
+
+    .alto{
+		margin-top: 13em;
+	}
+}
+
+@media (max-width: 440px){
+	.alto{
+		margin-top: 26%;
+	}
+
+}
+
+@media (max-width: 411px){
+	.tituloSomos{
+	margin-top: -24em;
+    }
+
+	.alto{
+		margin-top: 45%;
+	}
+
+}
+
+@media (max-width: 360px){
+	.tituloSomos{
+	margin-top: -24em;
+    }
+
+    .alto{
+		margin-top: 32%;
+	}
+
+}
+
+@media (max-width: 320px){
+	.tituloSomos{
+	margin-top: -24.5em;
+    }
+
+}
+
+
 
 
 

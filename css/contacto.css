@@ -3,7 +3,7 @@ body{font-family: 'Poppins', sans-serif;}
 .form-control{background-color: transparent; border: none; box-shadow: none; border-radius: 0; }
 .conh1{color:#43B763; text-align: center; font-weight: 600; }
 .widt{width:100%;}
-.widt2{width: 50%px;}
+.widt2{width: 50%;}
 .container {width: 900px; }
 .sel{background-color: transparent; border: none; box-shadow: none; border-bottom: 1px solid #43B763; border-radius: 0; color:#43B763; margin-top: 24px; }
 .btnf{background-color:#43B763 !important; color:#FFF !important; font-size: 22px; padding: 6px 73px; border-radius: 0; font-weight: 600; display: block; margin: 0 auto;margin-top: 25px;transition: 1s;}
@@ -13,4 +13,7 @@ body{font-family: 'Poppins', sans-serif;}
 
 @media(max-width: 900px){
 	.container{width: 100%;}
+}
+
+@media(max-width: 480px){
 }

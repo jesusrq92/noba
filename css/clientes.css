@@ -1,0 +1,256 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.tituloCliente{
+  margin-top: 1.5em;
+  color: #26A360;
+  font-family: arial;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600px;
+}
+
+section#images {
+    margin-bottom: 5.5em;
+}
+
+.changeColor{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.changeColor:hover{
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);		
+}
+
+#pirelli{
+	width: 200px; 
+	height: 70px;
+}
+
+#vw{
+	width: 125px;
+	height: 110px;
+	margin-top: -2em;
+}
+
+#denso{
+	width: 200px;
+	height: 40px;
+}
+
+#KyV{
+	width: 200px;
+	height: 45px;
+}
+
+#hirotec{
+	width: 205px; 
+	height: 190px;
+}
+
+#deacero{
+	width: 210px;
+	height: 60px;
+	margin-top: 5em; 
+}
+
+#summit{
+	width: 210px;
+	height: 100px;
+	margin-top: 4em;
+}
+
+#kgm{
+	width: 210px;
+	height: 65px;
+	margin-top: 5em;
+}
+
+#nsk{
+	width: 210px;
+	height: 65px;
+	margin-top: 3em;
+}
+
+#hsc{
+	width: 200px;
+	height: 80px;
+	margin-top: 3em;
+}
+
+#HAngeles{
+	width: 220px;
+	height: 85px;
+	margin-top: 3em;
+}
+
+#altacia{
+	width: 220px;
+	height: 200px;
+	margin-top: 0em;
+}
+
+#viaAlta{
+	width: 220px;
+	height: 200px;
+
+}
+
+#crowne{
+	width: 210px;
+	height: 100px;
+	padding-top: 10px;
+}
+
+#hotelMexico{
+	width: 140px;
+	height: 160px;
+}
+
+.alto{
+	height: 150px;
+}
+
+@media (max-width: 1000px){
+
+	.tituloCliente{
+    font-size: 40px;
+    }
+
+	#pirelli{
+	width: 150px; 
+	height: 40px;
+	}
+
+	#vw{
+	width: 80px;
+	height: 80px;
+    } 
+
+    #denso{
+    width: 160px;
+	height: 20px;
+    }
+
+    #KyV{
+	width: 160px;
+	height: 25px;
+    }
+
+    #hirotec{
+	width: 165px; 
+	height: 170px;
+    }
+
+    #deacero{
+	width: 165px;
+	height: 40px;
+    }
+
+    #summit{
+	width: 165px;
+	height: 80px;
+    }
+
+    #kgm{
+	width: 160px;
+	height: 45px;
+    }
+
+    #nsk{
+	width: 170px;
+	height: 45px;
+    }
+
+    #hsc{
+	width: 160px;
+	height: 60px;
+    }
+
+    #HAngeles{
+	width: 180px;
+	height: 65px;
+    }
+
+    #altacia{
+	width: 180px;
+	height: 180px;
+    }
+
+    #viaAlta{
+	width: 180px;
+	height: 180px;
+    }
+
+    #crowne{
+	width: 170px;
+	height: 80px;
+    }
+
+    #hotelMexico{
+	width: 100px;
+	height: 140px;
+    }
+}
+
+@media (max-width: 767px) {
+
+	#vw{
+		margin-top: 3em;
+	}
+
+	#denso{
+		margin-top: 5em;
+	}
+
+    #KyV{
+    	margin-top: 7em;
+    }
+
+    #deacero{
+    	margin-top: 2em;
+    }
+
+    #summit{
+    	margin-top: 6em;
+    }
+
+    #kgm{
+    	margin-top: 5em;
+    }
+
+    #nsk{
+    	margin-top: 5em;
+    }
+
+    #hsc{
+    	margin-top: 8em;
+    }
+
+    #HAngeles{
+    	margin-top: 6em;
+    }
+
+    #altacia{
+    	margin-top: 6em;
+    }
+
+    #viaAlta{
+    	margin-top: 2em;
+    }
+
+    #crowne{
+    	margin-top: 5em;
+    }
+
+    #hotelMexico{
+    	margin-top: 8em;
+    }
+
+}
+
+

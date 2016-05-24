@@ -1,0 +1,323 @@
+/*ESTILOS GENERALES*/
+body{font-family: 'Gill Sans', sans-serif; -webkit-font-smoothing: antialiased; font-weight: 100; color: #808080; line-height: 30px;}
+a{cursor: pointer;color: #ffffff;}
+a:hover, a:focus, a:active, a:visited{text-decoration: none;outline: 0; box-shadow: none;color: #ffffff;}
+strong{font-weight: 400;}
+b{font-weight: 600;}
+section{padding:40px 0;}
+#tituloConocimientos {padding: 0px 0px; }
+section.Carrusel {padding: 0; }
+li{list-style-type: none;}
+i.fa.fa-check{color: #ffaf04}
+.carousel-control.right, .carousel-control.left{background-image: none;}
+.row form{display: block; text-align: center; margin: 0 auto;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #FFFFFF !important; }
+.navbar-default .navbar-toggle {background-color: #3BA3D8 !important; }
+.navbar-default .navbar-toggle:hover {background-color: #FFFFFF !important; }
+.navbar-default .navbar-toggle:hover .icon-bar {background-color: #3BA3D8 !important; }
+.navbar-fixed-top {background-color: rgb(53, 157, 208) !important; position: fixed !important; opacity: 0.9;min-height: 35px;}
+nav.navbar {transition: all 1.2s ease; }
+.container {width: 900px !important;}
+
+img.banPaypal {margin-top: -14px; }
+
+.navbar img{transition: all 1.2s ease; }
+.navbar-fixed-top img{height: 70px; margin-top: 10px; transition: all 1.2s ease; margin-left: 40px; }
+
+/*MENU*/
+header{position: relative;}
+.navbar-brand {float: inherit; height: auto; padding: 5px 15px; display: inline-block; }
+#exitoMenu {position: absolute; z-index: 1; width: 100%; background-color: transparent; border: 0; /*border-bottom: 1px solid rgba(255,255,255,0.2);*/ }
+.navbar-nav>li>a {padding-bottom: 30px; padding: 30px 36px;font-size: 16px;}
+.navbar-default .navbar-nav>li>a {color: #FFFFFF; text-transform: uppercase; letter-spacing: 0; font-weight: 700; }
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:active {color: #ffaf04; }
+#negative, #negativeUno{margin-top: -130px; height: 2px; width: 2px; position: absolute; }
+
+/*CARRUSEL INICIO*/
+.carousel-control.right, .carousel-control.left {z-index: 10;}
+.sliderForm {position: absolute; top: -28px; width: 100%;right: 20px;}
+
+/*Bootstrap*/
+.panel-default>.panel-heading.panel-collapse>.panel-body {font-size: 17px; } .panel{border: none;}
+.panel-default>.panel-heading {background-color: #F2F2F2; }
+.panel-title span {background-color: #FFAF04; width: 25px; height: 25px; border-radius: 50%; display: inline-block; text-align: center; padding-top: 4px; margin-right: 10px; color: #fff; }
+.form-control {margin-bottom: 15px;border-radius: 0px; box-shadow: none; height: 47px;font-size: 20px;}
+#Name2, #Email2 {height: 40px; font-size: 17px; margin-top: 13px;}
+
+iframe.videoYoutube{width: 100%;height: 236px;}
+
+/*TÍTULOS*/
+h1, h2, h3, h4, h5, h6{font-weight: 600;text-transform: uppercase; }
+h1{color: #FFFFFF; font-size: 65px;;text-align: center;}
+h2{font-size: 35px;text-align: center;}
+h3{font-size: 18px;color: #808080;}
+h4{color: #ffaf04; font-size: 20px; }
+
+.textCenter{text-align: center;}
+.textCenterExitoso{color: #0089ce;font-size: 30px;text-align: center;}
+.textCenterSize{text-align: left;font-size: 17px; font-weight: 100;}
+.textCenterForm{text-align: center;font-size: 24px; color:#ffffff;text-align: left;}
+.textSatisfaction{font-weight: 600; font-size: 18px;}
+
+/*COLORES FUENTES*/
+.yellowFont{color: #ffaf04;}
+.yellowFontPro{color: #ffaf04; font-weight: 600;}
+.yellowFontYa{color: #ffaf04; font-size: 75px;}
+.yellowFontComienza {color: #ffaf04; font-weight: 600; font-size: 35px;text-transform: none; margin-top: 65px;}
+.yellowFontQuieres{text-transform: none;color: #ffaf04;font-weight: 100;}
+.yellowFontCarlos{text-align: left;color: #ffaf04;}
+.normal{text-transform: inherit;}
+.tituloInmobil {font-size: 50px; }
+.whiteFont{color: #FFFFFF}
+.whiteFontAparta{color: #FFFFFF; font-size: 40px;line-height: 1.1;}
+.whiteFontBegin{font-size: 32px; text-align: center; text-transform: none; color: #FFFFFF;line-height: 0.3;}
+.whiteFontFree{font-size: 22px; text-align: center; text-transform: none; color: #FFFFFF;}
+.whiteFontFreedom{font-size: 30px; text-align: center; text-transform: none; color: #FFFFFF;}
+li.whiteFont {font-size: 20px; }
+.blackFont{font-size: 20px; text-align: center; color: #6D6060;line-height: 1.2;}
+.blackFontSpan{font-weight: 600;color: #ffffff;padding-top: 95px;}
+.blackFontRecover{font-size: 38px; text-transform: none;margin-top: 100px;}
+.blackFontSell{font-weight: 100;color: #ffaf04;text-transform: initial;}
+.es{font-weight: 100; color: #ffaf04; text-transform: initial;}
+.blueFont{color: #0089ce;}
+.blueSpan{font-weight: 600;}
+.whiteSpan{color: #ffffff;font-weight: 600;}
+.experienceFont{font-size: 25px;margin-top: 70px; }
+.trainingFont{color: #ffaf04;text-align: center;font-size: 25px;}
+.trainingSize{font-size: 17px;text-align: center;}
+.trainingStrong{font-weight: 600; font-size: 30px;text-align: center;display: block;}
+.trainingCap{text-transform: capitalize;font-weight: 600; font-size: 30px;text-align: center;display: block;}
+.objetivoFont{font-size: 23px;text-align: center;margin-top: 25px;font-weight: 500;}
+.unicoFont{text-align: center; font-size: 22px; font-weight: 400;}
+
+/*COLORES FONDO*/
+.yellowBg{background-color: #ffaf04;color: #FFFFFF;padding-top: 65px;}
+/*.yellowBg h2{color: #FFFFFF;}*/
+/*.blueBg{background-color: #0089ce;}*/
+.beneficiosBg{background:url('../img/banner.jpg') center center no-repeat;box-shadow: inset 1px 1px 1px 1000px rgba(0, 137, 206, 0.8);background-size: cover;}
+.whiteBg{background-color: #FFFFFF;}
+.brownBg{background:url('../img/auditorio.jpg') center center no-repeat;box-shadow: inset 1px 1px 1px 1000px rgba(206, 162, 0, 0.8);background-size: cover;padding: 100px 0;}
+.blueBg{box-shadow: inset 1px 1px 1px 1000px rgba(0, 137, 206, 0.8);}
+.blueBg img {margin-top: -226px; }
+.lightGreyBg .container{background-color: #FFFFFF;padding: 35px 0px;margin-top: -40px;margin-bottom: -40px;}
+.lightGreyBg{background-color: #f2f2f2;}
+#tituloConocimientos img{margin-bottom: -33px; max-width: 518px; width: 103%;}
+#carlosNava img {width: 100% !important; max-width: 450px !important; border-radius: 50% !important; margin-top: 100px;}
+.lightGreyBg h2 {padding-bottom: 24px; }
+.panel-title {font-size: 22px; }
+.transformar{text-transform: uppercase;}
+.transformarh1{text-transform: uppercase;text-align: right;border-right: 1px solid; padding-right: 35px;margin-top: 85px;}
+.antiTransform{text-transform: none;}
+
+/*BOTÓN*/
+.greenButton{background-color: #a3db63; color: #FFFFFF; text-transform: uppercase; padding: 6px 73px; font-size: 24px; border-radius: 0; font-weight: 600; display: block; margin: 0 auto; }
+.greenButton:hover, .greenButtonDos:hover{background-color: #FFFFFF; color: #a3db63;}
+.blueButton{background-color: deepskyblue; color: #ffffff; font-size: 24px; padding: 8px 30px;border-radius: 0;margin-top: 20px;margin:0 auto;display: block;}
+.blueButton:hover, .blueButtonDos:hover{color: deepskyblue;background-color: #ffffff;}
+.yellowButton{color: #ffffff; background-color: #FFAF04; font-size: 22px; font-weight: 600; border-radius: 0; padding: 9px 43px;}
+.yellowButton:hover{color: #FFAF04; background-color: #FFFFFF;}
+.greenButtonDos{background-color: #a3db63; color: #FFFFFF; text-transform: uppercase; padding: 6px 73px; font-size: 22px; border-radius: 0; font-weight: 600; display: block;margin: 0 auto;}
+.blueButtonDos{background-color: deepskyblue; color: white; font-size: 24px; padding: 8px 59px; border-radius: 0; padding-right: 24px; margin-top: 35px;}
+.blueButtonRepeat{background-color: deepskyblue; color: #ffffff; font-size: 24px; padding: 8px 30px;border-radius: 0;margin-top: 20px;display: none;}
+
+/*FOOTER*/
+footer{background-color: deepskyblue;color: #FFFFFF;padding: 30px 40px;}
+footer .text-left{border-left: 1px solid #FFFFFF;font-size: 18px;}
+footer .text-right{font-size: 18px;}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 852px){
+#Inscribete {margin-right: 120px !important; }
+}
+
+@media (max-width: 1200px){
+.container {width: 900px !important;}
+.sliderExito img {max-width: inherit !important; width: 120% !important; }
+.blackFontRecover {margin-top: 50px; }
+#tituloConocimientos img {margin-bottom: -29px; max-width: 412px; width: 104%; }
+.blackFontRecover {font-size: 31px; }
+.yellowButton {margin-left: -39px; }
+.sliderForm {height: 600px; }
+}
+
+@media (max-width: 1024px){
+.sliderForm {top: 0px;}
+.btn-default:hover {color: #A3DB63; background-color: #FFFFFF;}
+form .container {width: 970px; }
+.sliderExito img {max-width: inherit; width: 100%; }
+.container {width: 900px !important;}
+.blackFontRecover {font-size: 31px; }
+.brownBg {padding: 100px 0px; }
+h1 {font-size: 50px; }
+.yellowFontYa {font-size: 70px; }
+.yellowFontComienza {font-size: 30px; }
+.textCenterForm {font-size: 20px; }
+.form-control {height: 34px; font-size: 17px; }
+.greenButton {font-size: 19px; }
+h2 {font-size: 30px; }
+.fa-2x {font-size: 1em; }
+.blueButtonDos {font-size: 20px; padding: 6px 37px; margin-left: 64px; margin-top: 17px;}
+.whiteFontAparta {font-size: 34px; }
+.navbar-nav>li>a {font-size: 14px; }
+}
+
+@media (max-width: 990px){
+.carousel-inner>.item>img {height: 380px !important; }
+.sliderExito img {width: 190%; max-width: inherit !important; }
+a.navbar-brand{height: 0px;}
+.container {width: 768px;}
+.navbar-nav>li>a {padding-top: 15px; }
+h1 {font-size: 28px; }
+.navbar-brand>img {height: 53px; }
+.sliderForm {top: -41px;height: 431px; }
+.textCenterForm {font-size: 21px; }
+.greenButton {font-size: 16px; }
+.carousel-indicators li{display: none;}
+.container {width: 768px !important;}
+a#Informacion {margin-right: 50px !important; }
+.yellowFontComienza {font-size: 25px !important; }
+.textCenterForm {font-size: 16px !important; }
+.form-control {font-size: 15px; }
+#Name1, #Email1 {height: 35px; font-size: 15px; width: 80%; }
+.greenButton {padding: 6px 47px; font-size: 16px !important; margin: 0; }
+.navbar-default .navbar-nav>li>a {font-size: 12px; }
+.tituloInmobil {font-size: 40px; }
+.yellowFontYa {font-size: 50px; line-height: 0.6; }
+.container {width: 736px !important; }
+.lightGreyBg h2 {padding-bottom: 0px; }
+h2 {font-size: 25px; }
+.objetivoFont {font-size: 20px; }
+.textCenterExitoso {font-size: 25px; }
+iframe.videoYoutube {height: 190px; }
+.experienceFont {font-size: 20px; }
+.blueButton {font-size: 20px; padding: 8px 35px; margin-top: 0px; }
+.blackFont {font-size: 16px; }
+.blackFontRecover {font-size: 23px; }
+.yellowButton {font-size: 17px; padding: 9px 37px; }
+#tituloConocimientos img {margin-bottom: -21px; width: 105%; }
+.fa-2x {font-size: 1em !important; }
+li.whiteFont {font-size: 17px; }
+.textCenterSize {font-size: 15px; }
+.textSatisfaction {font-size: 16px; }
+.greenButtonDos {padding: 6px 41px; font-size: 18px; }
+.blueButtonDos {font-size: 17px; padding: 6px 24px; }
+.whiteFontAparta {font-size: 28px; }
+.whiteFontBegin {font-size: 27px; }
+.whiteFontFree {font-size: 20px; }
+.whiteFontFreedom {font-size: 25px; }
+#Name2, #Email2 {height: 35px; font-size: 16px; margin-top: 2px; }
+.greenButtonDos {padding: 6px 24px; font-size: 17px; }
+footer .text-left {font-size: 13px; }
+footer .text-right {font-size: 13px; }
+footer {padding: 30px 27px;}
+.lightGreyBg {background-color: #FFFFFF; }
+#negative, #negativeUno {margin-top: -105px; }
+}
+
+@media (max-width: 767px){
+	.banPaypal {margin-top: 0px !important; width: 170px; }
+.sliderExito img {width: 180%; max-width: inherit !important; }
+.navbar-brand {height: 0;}
+.container {width: 600px; }
+.sliderForm {position: initial; background-color: #3BA3D8; }
+section.Carrusel {display: none; }
+.navbar-nav {background-color: #3BA3D8; font-size: 18px; }
+.container {width: 601px !important;}
+.transformarh1 {text-align: center; border-right: 0px; padding-right: 0px; margin-top: 35px; }
+.yellowFontComienza {margin-top: 0px; }
+.textCenterForm {font-size: 18px !important; text-align: center; }
+.form-control {display: block; margin: 13px auto; }
+#Name1, #Email1 {width: 55%; }
+.greenButton {margin: 0 auto; }
+iframe.videoYoutube {height: 237px; width: 74%; display: block; margin: 0 auto; }
+.blackFont {margin-top: 15px; }
+.experienceFont {text-align: center;margin-top: 0px;}
+.blueButton {display: none; }
+.yellowButton {margin-left: 0px; margin: 0 auto; display: block; }
+#tituloConocimientos img {display: none; }
+#tituloConocimientos {padding-bottom: 50px; }
+h2 {font-size: 22px; }
+#carlosNava img {width: 40% !important; display: block; margin: 0 auto; }
+.yellowFontCarlos {text-align: center; }
+.textCenterSize {text-align: justify; }
+.textSatisfaction {text-align: justify; }
+.blueButtonDos {margin-left: 0px; margin: 0 auto; display: block; margin-top: 0px; }
+.brownBg {padding: 50px 0px; }
+.whiteFontAparta {text-align: center; }
+.whiteFontBegin {font-size: 24px; }
+.whiteFontFree {font-size: 17px; }
+#Name2, #Email2 {width: 50%; display: block; margin: 13px auto; }
+.container {width: 570px !important; }
+.navbar-fixed-top img {height: 31px !important; margin-top: 0px; margin-left: 25px; }
+.navbar-brand>img {height: 41px; }
+.sliderForm {height: 490px; }
+#negative, #negativeUno {margin-top: -90px; }
+.blueButtonRepeat {display: block; margin: 0 auto;font-size: 20px;}
+footer {padding: 15px 27px; }
+}
+
+@media(max-width: 600px){
+	.banPaypal {margin-top: 14px !important; width: 134px; }
+	.container {width: 480px !important;}
+	.sliderForm {background-color: #3BA3D8;}
+	.navbar-nav {background-color: #3BA3D8; font-size: 18px; }
+	.container {width: 450px !important; }
+	.sliderForm {height: 520px; }
+	iframe.videoYoutube {height: 175px; }
+	.beneficiosBg {background: none; }
+	.brownBg {background: none; }
+}
+
+@media (max-width: 480px){
+	.container {width: 290px !important; }
+	.sliderForm {background-color: #3BA3D8;}
+	#Knowledge {font-size: 32px; }
+	h2 {font-size: 29px; }
+	.navbar-nav {background-color: #3BA3D8; font-size: 18px; }
+	.navbar-default .navbar-nav>li>a {padding-bottom: 40px; }
+	.tituloInmobil {font-size: 30px; }
+	.yellowFontYa {font-size: 35px; }
+	#Name1, #Email1 {width: 75%; }
+	.greenButton {padding: 6px 20px; }
+	.sliderForm {height: 550px; }
+	h2 {font-size: 20px; }
+	.objetivoFont {font-size: 16px; }
+	.textCenterExitoso {font-size: 21px; }
+	iframe.videoYoutube {height: 113px; }
+	.experienceFont {font-size: 17px; }
+	.blueButton {font-size: 15px; padding: 4px 16px; }
+	.blackFontRecover {font-size: 18px; }
+	.yellowButton {font-size: 14px; }
+	li.whiteFont {font-size: 14px; }
+	.textSatisfaction {font-size: 15px; }
+	.greenButtonDos {font-size: 14px; }
+	.whiteFontAparta {font-size: 24px; }
+	.blueButtonDos {font-size: 14px; padding: 6px 14px; }
+	.whiteFontBegin {font-size: 21px; }
+	.whiteFontFree {font-size: 15px; }
+	.whiteFontFreedom {font-size: 22px; }
+	#Name2, #Email2 {width: 81%; }
+	footer .text-right {font-size: 7px; line-height: 2; }
+	footer .text-left {font-size: 8px;line-height: 2; }
+	footer {padding: 6px 10px; }
+	li.whiteFont {margin-left: -35px; }
+	.banPaypal {margin-top: -2px !important; margin-left: -18px; width: 95px; }
+	.blueButtonRepeat {font-size: 16px;}
+}
+
+@media(max-width: 320px){
+	.container {width: 290px !important; }
+	h2 {font-size: 25px; }
+	#Knowledge {font-size: 28px; }
+	.blueBg {background: none;}
+	.navbar-nav {background-color: #3BA3D8; font-size: 18px; }
+	h1 {font-size: 25px; }
+	.tituloInmobil {font-size: 27px; }
+	.yellowFontYa {font-size: 30px; }
+	.yellowFontComienza {font-size: 20px !important; }
+	.textCenterForm {font-size: 16px !important; }
+	h2 {font-size: 20px; }
+	.textCenterExitoso {font-size: 20px; }
+	.banPaypal {margin-top: -2px !important; margin-left: 0px; width: 80px; }
+}

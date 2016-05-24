@@ -1,0 +1,38 @@
+#form-control{
+background-color: transparent;
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+}
+.sel{
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+	color:#43B763;
+
+}
+
+.btnf{
+	background-color:#43B763;
+	color:black;
+	font-size: 15px;
+	padding: 6px 73px;
+	border-radius: 0;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.conh1{
+	color:#43B763;
+	text-align: center;
+
+}
+
+::-webkit-input-placeholder{
+	color:#43B763;
+}

@@ -58,15 +58,8 @@
 .parrafosValores{
 	margin: auto;
 	font-size: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
 	color: #4f4c4d;
 	margin-bottom: 1em;
-}
-
-.outPadding{
-	padding-right: -15px !important;
-	padding-left: -15px !important;
 }
 
 #imgNosotros{

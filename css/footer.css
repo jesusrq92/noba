@@ -27,10 +27,11 @@ img.certif {margin-left: -10px; }
 
 @media (max-width: 480px){
 .hrServ {width: 250px; }
-footer {padding: 30px 45px; }
+footer {padding: 30px 25px; }
 }
 
 @media (max-width: 320px){
 	.sucursalDiv {margin-left: -56px; }
 	footer {padding: 30px 50px; }
+	.sucursalDiv {width: 140%; }
 }

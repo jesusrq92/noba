@@ -1,6 +1,6 @@
 <?php 
 
-    $db = mysqli_connect('localhost', '', '', ''); //---- datos produccion ----
+    $db = mysqli_connect('localhost', '', '', ''); //---- datos produccion agregar si hacen falta ----
     //$db = mysqli_connect('localhost', 'root', 'root', 'NOBA_DB'); //datos local
     if(mysqli_connect_errno())
     {
@@ -17,10 +17,6 @@
             return false;
         }
     }
-
-
-
-
 
     if(isset($_POST['nombre']) && !empty($_POST['nombre']) 
       AND isset($_POST['tel']) && !empty($_POST['tel'])
@@ -41,25 +37,21 @@
 
         if($longnum  >= 10 ){
             if(checkmailf1($cor)){
-               
+
                 if(!is_numeric($nomm))
                 {
                    if($longnom > 1)
                    {
-                       
-
-
-
 
                     $sql="INSERT INTO ContactoForm(`id`, `nombre`,`telefono`,`correo`,`giro_empresa`,`estado_republica`,`msj`) VALUES
                     ('','$nomm','$tl','$cor','$se1','$se2','$mj')";
                     $saveDB = mysqli_query($db,$sql);
                     if($saveDB){
 
-                       
+
                      echo "<div id='Ajx'><script>document.getElementById('nobaF').reset(); </script> 
-                     <script>swal({   title: 'Datos guardados.',   text: 'Gracias por ponerte en contacto.',   type: 'success',   showCancelButton: false,   confirmButtonColor: '#a3db63',   confirmButtonText: 'OK',   closeOnConfirm: true}); </script></div>"; 
-                     
+                     <script>swal({   title: 'Datos guardados.',   text: 'Gracias por ponerte en contacto.',   type: 'success',   showCancelButton: false,   confirmButtonColor: '#43B763',   confirmButtonText: 'OK',   closeOnConfirm: true}); </script></div>"; 
+
                  }
 
                  else{
@@ -95,13 +87,10 @@ else{
    <script>sweetAlert({title:'Error',text:'El campo telefono debe contener 10 digitos como minimo',confirmButtonColor:'#F06060',type:'error'}); </script></div>";
 }
 }
-
-
 else{
 	echo "<div id='Ajx'>
 	<script>sweetAlert({title:'Error',text:'Datos incompletos',confirmButtonColor:'#F06060',type:'error'});</script></div>";
 }
-
 
 ?>
 

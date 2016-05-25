@@ -406,7 +406,11 @@ section#images {
 .medal {width: 100px; }
 .iconos {padding: 65px 0; }
 .medical2 {width: 72px; }
-.space {margin-top: 30px; }
+.space {margin-top: 30px; color:#26A360;}
+
+.parrafito{
+	color: #4f4c4d;
+}
 
 .repetido{
 	display: none;

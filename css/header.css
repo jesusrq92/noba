@@ -15,6 +15,8 @@ header{background-color: #FFFFFF;padding: 25px 0;}
 .navbar-nav>li>a:hover {font-size: 15px;text-shadow: 2px 2px 4px grey;transition: 1s;}
 .nobaMenu{margin-top: -10px;}
 
+.container-fluid>.navbar-collapse{margin-right: 0px;margin-left: 0px;}
+
 @media (max-width: 990px){
 	.navbar-nav>li {margin-left: -5px;}
 	.logo{width: 160px;}

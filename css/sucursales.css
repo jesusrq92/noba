@@ -1,0 +1,14 @@
+.sucEuro{color: #898989;}
+.titSuc{color: #43B763; font-weight: 600; font-size: 16px;}
+.sucursales{padding: 40px 0;}
+.container {width: 90%; }
+iframe{height:500px;width:100%; border-bottom: 3px solid black;border-top: 3px solid black; }
+.bordeSuc{border-right: 1px solid #898989; height: 140px; }
+
+@media(max-width: 1024px){
+	.bordeSuc{text-align: center;}
+}
+
+@media(max-width: 600){
+	iframe{height: 400px !important;}
+}

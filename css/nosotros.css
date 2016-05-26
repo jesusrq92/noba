@@ -791,7 +791,11 @@ section#images {
 	}
 
 	#image1{
-		margin-top: -5em;
+		margin-top: .5em;
+	}
+
+	.estiloPlanes{
+		margin-top: -1em;
 	}
 
 	#image1, #image2, #image3, #image4,#image5{

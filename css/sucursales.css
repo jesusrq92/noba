@@ -4,6 +4,8 @@
 .container {width: 90%; }
 iframe{height:500px;width:100%; border-bottom: 3px solid black;border-top: 3px solid black; }
 .bordeSuc{border-right: 1px solid #898989; height: 140px; }
+.linkSucursal{color:#26A35D !important;}
+.linkSucursal:hover{color: black !important;}
 
 @media(max-width: 1024px){
 	.bordeSuc{text-align: center;}

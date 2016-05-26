@@ -27,7 +27,7 @@
 }
 
 .contenido{
-	margin-top: 24%;
+	margin-top: 17%;
 	margin-bottom: 4%;
 }
 
@@ -35,7 +35,7 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600px;
 	position: relative;
-	margin-top: -25%;
+	margin-top: -20%;
 	color: white;
 	font-size: 60px;
 }
@@ -61,6 +61,14 @@
 	color: #4f4c4d;
 	margin-bottom: 1em;
 }
+
+.imgsValor{
+	    margin-top: .5em;
+	    margin-bottom: 2em;
+	    margin-left: .7em;
+    	width: 85px;
+    	height: 80px;
+    }
 
 #imgNosotros{
 	width: 100%;
@@ -96,7 +104,7 @@
 @media (max-width: 700px) {
 
 	.tituloPrincipal{
-		font-size: 40px;
+		font-size: 37px;
 	}
 
 	.titulosNosotros{
@@ -124,17 +132,26 @@
 	#imgNosotros{
 	border-bottom: solid 5px #3fb05e;
     }
+
+    .imgsValor{
+    	width: 80px;
+    	height: 75px;
+    }
 }
 
-/*@media (max-width: 700px){
-	.tituloPrincipal{
-		font-size: 30px;
-	}
-
-	#imgNosotros{
-	border-bottom: solid 4px #3fb05e;
+@media(max-width: 420px){
+	.imgsValor{
+    	width: 70px;
+    	height: 65px;
     }
-}*/
+}
+
+@media(max-width: 330px){
+	.imgsValor{
+    	width: 60px;
+    	height: 55px;
+    }
+}
 
 /*iso CSS*/
 
@@ -419,7 +436,7 @@ section#images {
 }
 
 .noAutorizado{background: url("../images/bgblack.jpg");background-size: cover;padding-top: 40px;color: #FFF;font-size: 17px;border-bottom: 6px solid #00b25b ;}
-.raton {max-width: 730px; margin-left: -235px;margin-top: -65px; }
+.raton {max-width: 730px; margin-left: -235px;margin-top: 0px; }
 .manoStop {max-width: 500px;float: right;margin-right: -15px; }
 .autorizado {font-size: 35px; font-weight: bold; }
 .insectos {width: 170px;margin-top: 20px; }
@@ -764,22 +781,6 @@ section#images {
     .medical,.medal {width: 80px; }
     .medical2,.care {width: 70px; }
 }
-
-/*@media(max-width: 550px){
-	#image4, #image5{
-		display: initial;
-	}
-
-	#image1, #image2, #image3, #image4,#image5{
-		display: block;
-		margin-left: 0;
-	} 
-
-	.formatoSlider{
-	width: 300px;
-    }
-
-}*/
 
 @media(max-width: 550px){
 	.repetidoIndex{

@@ -6,14 +6,35 @@ body{font-family: 'Poppins', sans-serif;}
 .widt2{width: 50%;}
 .container {width: 900px; }
 .sel{background-color: transparent; border: none; box-shadow: none; border-bottom: 1px solid #43B763; border-radius: 0; color:#43B763; margin-top: 24px; }
-.btnf{background-color:#43B763 !important; color:#FFF !important; font-size: 22px; padding: 6px 73px; border-radius: 0; font-weight: 600; display: block; margin: 0 auto;margin-top: 25px;transition: 1s;}
-.btnf:hover{background-color:#FFF !important;color:#43B763 !important;border-color:#43B763; }
-.form-control:focus {border-bottom: 3px solid #43B763; -webkit-box-shadow: none;font-size: 18px; }
+.btnf{display: block; margin: 0 auto;margin-top: 25px;transition: 1s;}
+.form-control:focus {border-bottom: 3px solid #43B763; font-size: 18px !important; -webkit-box-shadow: none;}
 ::-webkit-input-placeholder{color:#43B763 !important; margin:0px;font-size: 16px;}
+.botonContactar{
+	margin-top: 2em;
+	background-color: #26A360;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700px;
+	font-size: 23px;
+	padding: 9px 35px 9px 35px;
+	border-radius: 5px;
+	border:2px solid transparent;
+	-webkit-transition: .6s; /* Safari */
+    transition: .6s;
+}
+
+.botonContactar:hover{
+	color: #26A360;
+	background-color: transparent;
+	border:2px solid #26A360;
+}
 
 @media(max-width: 900px){
 	.container{width: 100%;}
 }
 
-@media(max-width: 480px){
+@media(max-width: 768px){
+     .anchando{
+     	width: 100%;
+     }
 }

@@ -14,7 +14,7 @@ header{background-color: #FFFFFF;padding: 25px 0;}
 .navbar-default {background-color: #43B763; border-color: #43B763;border-radius: inherit; }
 .navbar-default .navbar-nav>li>a {color: #FFF; }
 .navbar-nav>li {border-right: solid 1px white; height: 30px;margin-top: 10px;float: none; display: inline-block; }
-.navbar-nav>li>a:hover {color: #4F4C4D !important;transition: .5s;}
+.navbar-nav>li>a:hover {color: #025014 !important;transition: .5s;}
 .nobaMenu{margin-top: -10px;}
 
 .container-fluid>.navbar-collapse{margin-right: 0px;margin-left: 0px;}

@@ -1,11 +1,14 @@
 <?php 
+header("Content-Type: text/html;charset=utf-8");
+    // $db = mysqli_connect('localhost', '071bd473eb6a', '0d8c26cb5cc576af', 'nobadb'); //---- datos produccion agregar si hacen falta ----
 
-    $db = mysqli_connect('localhost', '071bd473eb6a', '0d8c26cb5cc576af', 'nobadb'); //---- datos produccion agregar si hacen falta ----
-    // $db = mysqli_connect('localhost', 'root', 'root', 'NOBA_DB'); //datos local
+    $db = mysqli_connect('localhost', 'root', 'root', 'NOBA_DB2');
+    $acentos = $db->query("SET NAMES 'utf8'"); //datos local
     if(mysqli_connect_errno())
     {
         echo 'Failed to connect to MySQL: '.mysqli_connect_error();
     }
+
 
 
     function  checkmailf1($cor){
@@ -43,7 +46,7 @@
                    if($longnom > 1)
                    {
 
-                    $sql="INSERT INTO ContactoForm(`id`, `nombre`,`telefono`,`correo`,`giro_empresa`,`estado_republica`,`msj`) VALUES
+                    $sql="INSERT INTO ContactoFormm(`id`, `nombre`,`telefono`,`correo`,`giro_empresa`,`estado_republica`,`msj`) VALUES
                     ('','$nomm','$tl','$cor','$se1','$se2','$mj')";
                     $saveDB = mysqli_query($db,$sql);
                     if($saveDB){

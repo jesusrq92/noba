@@ -1,7 +1,7 @@
 <?php 
 
-    $db = mysqli_connect('localhost', '', '', ''); //---- datos produccion agregar si hacen falta ----
-    //$db = mysqli_connect('localhost', 'root', 'root', 'NOBA_DB'); //datos local
+    $db = mysqli_connect('localhost', '071bd473eb6a', '0d8c26cb5cc576af', 'nobadb'); //---- datos produccion agregar si hacen falta ----
+    // $db = mysqli_connect('localhost', 'root', 'root', 'NOBA_DB'); //datos local
     if(mysqli_connect_errno())
     {
         echo 'Failed to connect to MySQL: '.mysqli_connect_error();

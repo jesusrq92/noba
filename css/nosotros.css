@@ -606,8 +606,29 @@ section#images {
 	margin-bottom: .5em;
 }
 
+
 #image2, #image3, #image4, #image5 {
 	margin-left: -100px;
+}
+
+#image1:hover{
+   content:url("../images/slider11.png");
+}
+
+#image2:hover{
+   content:url("../images/slider22.png");
+}
+
+#image3:hover{
+   content:url("../images/slider33.png");
+}
+
+#image4:hover{
+   content:url("../images/slider44.png");
+}
+
+#image5:hover{
+   content:url("../images/slider55.png");
 }
 
 @media(max-width: 1833px){
@@ -852,8 +873,33 @@ section#images {
 		padding-bottom: 8px;
 	} 
 
+	#image1{
+    content: url("../images/sliderFull1.jpg") !important;
+    height: 200px;
+    }
+
+    #image2{
+    content: url("../images/sliderFull2.jpg") !important;
+    height: 200px;
+    }
+
+    #image3{
+    content: url("../images/sliderFull3.jpg") !important;
+    height: 200px;
+    }
+
+    #image4{
+    content: url("../images/sliderFull4.jpg") !important;
+    height: 200px;
+    }
+
+    #image5{
+    content: url("../images/sliderFull5.jpg") !important;
+    height: 200px;
+    }
+
 	.formatoSlider{
-	width: 300px;
+	width: 250px;
     }
 
 }
@@ -903,6 +949,10 @@ section#images {
 @media (max-width: 320px){
 	.tituloSomos{
 	margin-top: -24.5em;
+    }
+
+    #image1{
+    	margin-top: 1.5em;
     }
 
 }

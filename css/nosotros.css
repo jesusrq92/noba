@@ -483,7 +483,7 @@ section#images {
 }
 
 .noAutorizado{background: url("../images/bgblack.jpg");background-size: cover;padding-top: 40px;color: #FFF;font-size: 17px;border-bottom: 6px solid #00b25b ;}
-.raton {max-width: 730px; margin-left: -235px;margin-top: 0px; }
+.raton {max-width: 730px; margin-left: -210px;margin-top: 15px;}
 .manoStop {max-width: 500px;float: right;margin-right: -15px; }
 .autorizado {font-size: 35px; font-weight: bold; }
 .insectos {width: 170px;margin-top: 20px; }
@@ -707,7 +707,7 @@ section#images {
 }
 
 @media(max-width: 1200px){
-    .raton {max-width: 600px; margin-left: -198px; }
+    .raton {max-width: 600px; margin-top: 60px;margin-left: -198px; }
     .manoStop {max-width: 470px; }
     .insectos {width: 120px; }
 }
@@ -749,16 +749,6 @@ section#images {
     .cuatro{width: initial;}
 }
 
-@media (max-width: 900px){
-.manoStop {max-width: 320px; }
-.noAutorizado {font-size: 13px; }
-.autorizado {font-size: 24px; }
-.insectos {width: 90px; }
-.algo {font-size: 21px; }
-.raton {max-width: 500px; margin-left: -166px; margin-top: -38px; }
-.bgnegro {height: 300px; }
-}
-
 @media (max-width: 960px) {
 	#tipo{
 		display: none;
@@ -777,6 +767,16 @@ section#images {
 	}
 }
 
+@media (max-width: 900px){
+.manoStop {max-width: 320px; }
+.noAutorizado {font-size: 13px; }
+.autorizado {font-size: 24px; }
+.insectos {width: 90px; }
+.algo {font-size: 21px; }
+.raton {max-width: 500px; margin-left: -166px; margin-top: -8px; }
+.bgnegro {height: 300px; }
+}
+
 @media (max-width: 820px){
 	.formatoSlider{
 	width: 260px;
@@ -791,6 +791,7 @@ section#images {
 }
 
 @media (max-width: 768px) {
+	.raton {max-width: 500px; margin-left: -166px; margin-top: -0px; }
 	.tituloSomos{
 	margin-top: -22em;
 	margin-left: 5%;

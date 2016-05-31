@@ -39,6 +39,34 @@
               <script>
               new WOW().init();
               </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+        <script>
+         jQuery(function(){
+           var form = jQuery('form#nobaF');
+           form.submit(function(e){
+               e.preventDefault();
+              
+               dataString = form.serialize();
+
+              jQuery.ajax({
+                type:'POST',
+                   url:'back/formularionoba.php',
+                   data: dataString,
+                
+                success: function(data){
+                  jQuery('#Ajx').replaceWith(data);
+                },
+                complete: function(){
+
+                }
+              });
+              return false;
+            })
+
+          });
+        </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

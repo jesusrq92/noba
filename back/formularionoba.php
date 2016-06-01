@@ -46,7 +46,7 @@ header("Content-Type: text/html;charset=utf-8");
                    if($longnom > 1)
                    {
 
-                    $sql="INSERT INTO ContactoFormm(`id`, `nombre`,`telefono`,`correo`,`giro_empresa`,`estado_republica`,`msj`) VALUES
+                    $sql="INSERT INTO ContactoForm(`id`, `nombre`,`telefono`,`correo`,`giro_empresa`,`estado_republica`,`msj`) VALUES
                     ('','$nomm','$tl','$cor','$se1','$se2','$mj')";
                     $saveDB = mysqli_query($db,$sql);
                     if($saveDB){

@@ -8,10 +8,10 @@ header{background-color: #FFFFFF;padding: 25px 0;}
 
 
 /*navbar*/
-.navbar-fixed-top{opacity: 0.9;transition: all 1.2s ease;height: 60px;font-size: 17px; padding-top: 5px;background-color: #43B763;}
+.navbar-fixed-top{opacity: 0.9;transition: all 1.2s ease;height: 60px;font-size: 17px; padding-top: 5px;background-color: #8ad42c;}
 .navbar-nav {width: 100%; text-align: center; }
 .navbar-brand>img {width: 50px; }
-.navbar-default {background-color: #43B763; border-color: #43B763;border-radius: inherit; }
+.navbar-default {background-color: #8ad42c; border-color: #8ad42c;border-radius: inherit; }
 .navbar-default .navbar-nav>li>a {color: #FFF; }
 .navbar-nav>li {border-right: solid 1px white; height: 30px;margin-top: 10px;float: none; display: inline-block; }
 .navbar-nav>li>a:hover {color: #025014 !important;transition: .5s;}
@@ -31,10 +31,10 @@ header{background-color: #FFFFFF;padding: 25px 0;}
 	li.cont {border-bottom: none; }
 	.navbar-default .navbar-toggle {background-color: #FFF; }
 	.navbar-default .navbar-toggle:hover {background-color: #FFF; }
-	.navbar-default .navbar-toggle .icon-bar {background-color: #43B763; }
+	.navbar-default .navbar-toggle .icon-bar {background-color: #8ad42c; }
 	.nav>li>a {margin: -10px auto; }
-	.navbar-fixed-top{background-color: #43B763;}
-	.container-fluid>.navbar-collapse {background-color: #43B763; }
+	.navbar-fixed-top{background-color: #8ad42c;}
+	.container-fluid>.navbar-collapse {background-color: #8ad42c; }
 }
 
 @media (max-width: 480px){

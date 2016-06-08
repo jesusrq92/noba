@@ -4,7 +4,7 @@
 .container {width: 90%; }
 iframe{height:500px;width:100%; border-bottom: 3px solid black;border-top: 3px solid black; }
 .bordeSuc{border-right: 1px solid #898989; height: 140px; }
-.linkSucursal{color:#26A35D !important;}
+.linkSucursal{color:#8ad42c !important;}
 .linkSucursal:hover{color: #4F4C50 !important;}
 
 @media(max-width: 1024px){

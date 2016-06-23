@@ -2,8 +2,9 @@
 .titSuc{color: #43B763; font-weight: 600; font-size: 16px;}
 .sucursales{padding: 40px 0;}
 .container {width: 90%; }
-iframe{height:500px;width:100%; border-bottom: 3px solid black;border-top: 3px solid black; }
-.bordeSuc{border-right: 1px solid #898989; height: 140px; }
+iframe{height:500px;width:100%; border-bottom: 3px solid black;border-top: 3px solid black;margin-top: -165px; }
+/*.bordeSuc{border-right: 1px solid #898989; height: 140px; }*/
+.bordeSuc {height: 251px;}
 .linkSucursal{color:#8ad42c !important;}
 .linkSucursal:hover{color: #4F4C50 !important;}
 

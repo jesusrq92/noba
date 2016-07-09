@@ -310,7 +310,7 @@
 	display: none;
 }
 
-.noAutorizado{background: url("../images/bgblack.jpg");background-size: 100% 100%; padding-top: 40px;color: #FFF;font-size: 17px;border-bottom: 6px solid #00b25b ;}
+.noAutorizado{background: url("../images/bgblack.jpg");background-size: 100% 100%; padding-top: 40px;color: #FFF;font-size: 17px;border-bottom: 6px solid #8ad42c ;}
 .raton {max-width: 730px; margin-left: -210px;margin-top: 15px;}
 .manoStop {max-width: 500px;float: right;margin-right: -15px; }
 .autorizado {font-size: 35px; font-weight: bold; }
